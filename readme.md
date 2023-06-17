@@ -10,11 +10,11 @@ make
 Test with V8 API 
 ```
 unset TORCH_CUDNN_V8_API_DISABLED
-./src/main/
+./src/main
 ```
 
 Test without V8 API 
 ```
 export TORCH_CUDNN_V8_API_DISABLED=1
-./src/main/
+./src/main
 ```
