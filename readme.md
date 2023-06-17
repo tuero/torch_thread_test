@@ -4,6 +4,7 @@ Build Instructions
 git clone
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/usr/local/libtorch ..
+make
 ```
 
 Test with V8 API 
